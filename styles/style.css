@@ -257,8 +257,7 @@
 }
 
 .footer {
-  display: flex;
-    overflow: auto;
+    display: flex;
     background-color: #000;
     color: #fff;
     min-height: 350px;
@@ -300,14 +299,29 @@
 }
 
 .footer__column-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer__column-link {
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
+    text-decoration: none;
+    color: #fff;
 }
 
 .footer__column_content_social {
     flex-basis: 120px;
 }
+
+.footer__social-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 
 .footer__social-link {
   line-height: 30px;
@@ -320,4 +334,5 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin: 0 15px 0 0;
 }
