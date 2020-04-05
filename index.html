@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./pages/index.css">
+  <link rel="stylesheet" href="./pages/index.css" type="text/css">
   <title>Научиться учиться</title>
 </head>
 
@@ -70,10 +70,10 @@
       <section class="video">
         <h2 class="section-title section-title_theme_light">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li><iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+          <li><iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></li>
+        </ul>
       </section>
 
       <section class="oakley">
@@ -199,12 +199,20 @@
       <section class="resources">
         <h2 class="section-title section-title_theme_light">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img src="./images/logo/arzamas.svg" alt="Логотип Арзамас" class="resources__logo">
-          <img src="./images/logo/n1.svg" alt="Логотип Н+1" class="resources__logo">
-          <img src="./images/logo/strelka.svg" alt="Логотип Стрелка" class="resources__logo">
-          <img src="./images/logo/polka.svg" alt="Логотип Полка" class="resources__logo">
-        </div>
+        <ul class="resources__logo-zone">
+          <li><a href="https://arzamas.academy/" target="_blank" class="resources__link">
+            <img src="./images/logo/arzamas.svg" alt="Логотип Арзамас" class="resources__logo">
+          </a></li>
+          <li><a href="https://nplus1.ru/" target="_blank" class="resources__link">
+            <img src="./images/logo/n1.svg" alt="Логотип Н+1" class="resources__logo">
+          </a></li>
+          <li><a href="https://strelka.com/ru" target="_blank" class="resources__link">
+            <img src="./images/logo/strelka.svg" alt="Логотип Стрелка" class="resources__logo">
+          </a></li>
+          <li><a href="https://polka.academy/" target="_blank" class="resources__link">
+            <img src="./images/logo/polka.svg" alt="Логотип Полка" class="resources__logo">
+          </a></li>
+        </ul>
       </section>
 
     </main>
@@ -216,7 +224,7 @@
           <div class="footer__author">&copy; 2020. Захаров Михаил</div>
         </div>
         <div class="footer__column footer__column_content_info">
-          <div class="footer__column-heading">О Практикуме</div>
+          <h3 class="footer__column-heading">О Практикуме</h3>
           <nav>
             <ul class="footer__column-links">
               <li><a class="footer__column-link" href="#">Главная</a></li>
@@ -226,12 +234,18 @@
           </nav>
         </div>
         <div class="footer__column footer__column_content_social">
-          <div class="footer__column-heading">Соцсети</div>
+          <h3 class="footer__column-heading">Соцсети</h3>
           <nav>
             <ul class="footer__social-links">
-              <li><a href="https://www.facebook.com/" class="footer__social-link"><img class="footer__social-icon" src="./images/facebook_white.svg" alt="Facebook">Facebook</a></li>
-              <li><a href="https://vk.com/" class="footer__social-link"><img class="footer__social-icon" src="./images/vk_white.svg" alt="VKontakte">ВКонтакте</a></li>
-              <li><a href="https://www.instagram.com/" class="footer__social-link"><img class="footer__social-icon" src="./images/instagram_white.svg" alt="Instagram">Instagram</a></li>
+              <li><a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                <img class="footer__social-icon" src="./images/facebook_white.svg" alt="Facebook">Facebook
+              </a></li>
+              <li><a href="https://vk.com/" target="_blank" class="footer__social-link">
+                <img class="footer__social-icon" src="./images/vk_white.svg" alt="VKontakte">ВКонтакте
+              </a></li>
+              <li><a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                <img class="footer__social-icon" src="./images/instagram_white.svg" alt="Instagram">Instagram
+              </a></li>
             </ul>
           </nav>
         </div>
