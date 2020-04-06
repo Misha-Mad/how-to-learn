@@ -8,4 +8,5 @@
   display: flex;
   justify-content: start;
   flex-wrap: wrap;
+  list-style: none;
 }
