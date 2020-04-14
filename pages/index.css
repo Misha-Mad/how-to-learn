@@ -1,5 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/root/root.css);
+@import url(../blocks/fonts/_russo-one/fonts_russo-one.css);
+@import url(../blocks/fonts/_yeseva-one/fonts_yeseva-one.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/description/description.css);
@@ -17,4 +19,4 @@
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/footer/footer.css);
-@import url(../animations/__rotate/animations__rotate.css);
+@import url(../blocks/animation/__rotate/animations__rotate.css);
